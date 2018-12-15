@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return;
                 }
                 try {
-                    // 创建保存录音的音频文件
+                    // 创建保存录音的音频文件;
                     soundFile = new File(Environment.getExternalStorageDirectory().getCanonicalFile() + "/sound.amr");
 
                     mediaRecorder = new MediaRecorder();
