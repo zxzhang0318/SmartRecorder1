@@ -14,7 +14,7 @@ import java.io.File;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     //test request from wty
-    // test by master zongxian22
+    // test by master zongxian33
     private final String TAG = "smartrecord";
     private Button btn_record;
     private Button btn_stop;
