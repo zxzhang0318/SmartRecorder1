@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     mediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
                     // 设置录制声音的输出格式（必须在设置声音编码格式之前设置）
                     mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
-                    // 设置声音编码格式
+                    // 设置声音编码格式//
                     mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
                     mediaRecorder.setOutputFile(soundFile.getAbsolutePath());
                     mediaRecorder.prepare();
